@@ -133,7 +133,7 @@ ${body}
   <b>이 사이트에 대해</b><br>
   ${esc(site.name)}은 ${esc(site.cafeName)} 카페가 회원 사장님들을 위해 운영하는 안내 페이지입니다. 공고 데이터는 ${esc(sourceNames)}의 공공데이터(이용 제한 없음)를 매일 자동으로 받아오고, 요약과 체크리스트는 AI가 작성한 뒤 숫자를 원문과 대조합니다. 그래도 틀린 부분이 있을 수 있으니 신청 자격·금액·기한은 각 페이지의 <b>공고 원문</b>과 <b>접수 기관</b>에서 마지막으로 확인해 주세요. ${contactNote}
   <div class="links"><a href="${rel}terms.html">이용약관</a> · <a href="${rel}privacy.html">개인정보처리방침</a> · <a href="${esc(site.cafeUrl)}" target="_blank" rel="noopener">${esc(site.cafeName)} 카페</a> · <span>출처: ${esc(sourceNames)}</span></div>
-  <div style="margin-top:10px">© ${today.slice(0, 4)} ${esc(site.name)}</div>
+  <div style="margin-top:10px">© ${today.slice(0, 4)} ${esc(site.cafeName)}. 요약·체크리스트·디자인은 ${esc(site.cafeName)}의 저작물이며 무단 복제·재배포를 금지합니다. 공고 원문의 권리는 각 기관에 있습니다.</div>
 </div></footer>
 ${scripts}
 </body>
