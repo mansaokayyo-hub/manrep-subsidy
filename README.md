@@ -56,7 +56,7 @@ node src/summarize.js --force          # 전부 다시
 ## 공지사항 올리기
 저장소 루트의 `notice.md` 가 첫 화면(카페 배너 아래) 공지예요. 관리자 페이지는 따로 없고 이 파일을 직접 고칩니다.
 
-1. https://github.com/woojae32610-ops/manrep-subsidy/edit/main/notice.md 열기 (북마크 추천)
+1. https://github.com/mansaokayyo-hub/manrep-subsidy/edit/main/notice.md 열기 (북마크 추천)
 2. 주석(`<!-- -->`) 아래에 글 쓰기 — 첫 줄 `# 제목`, 빈 줄로 문단, `[글자](주소)` 는 링크
 3. 오른쪽 위 **Commit changes** → 2~3분 뒤 사이트에 반영 (Actions 의 `notice` 워크플로가 자동 실행)
 4. 공지를 내리려면 내용을 지우고 저장

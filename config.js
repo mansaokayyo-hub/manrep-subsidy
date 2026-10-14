@@ -10,7 +10,7 @@ export default {
     tagline: '정부24에 올라오는 공고 가운데 사장님께 해당되는 것만 매일 모아, 누가·얼마나·언제까지인지 사장님 말로 풀었어요.',
     description:
       '만렙사장 회원을 위한 소상공인 지원사업 안내. 정부24 공공데이터를 매일 모아 자격 조건·지원 금액·마감일을 사장님 말로 정리하고, 체크박스로 내 해당 여부를 바로 확인할 수 있습니다.',
-    url: 'https://woojae32610-ops.github.io/manrep-subsidy', // 사이트 주소 (끝에 / 없이) — OG 태그·sitemap 에 사용
+    url: 'https://mansaokayyo-hub.github.io/manrep-subsidy', // 사이트 주소 (끝에 / 없이) — OG 태그·sitemap 에 사용
     cafeUrl: 'https://cafe.naver.com/whduddn0317',
     cafeName: '만렙사장',
     // 문의 창구: 카페 "문의·신고 게시판". url 에 게시판 주소를 넣으면 바로 그 게시판으로 연결 (비어 있으면 카페 대문)
