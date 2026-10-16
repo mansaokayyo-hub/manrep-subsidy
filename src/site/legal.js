@@ -1,6 +1,7 @@
 // 이용약관 · 개인정보처리방침 페이지 내용 (site/terms.html, site/privacy.html)
-// - 이 사이트는 로그인·댓글·문의 양식이 없고 쿠키·분석 도구도 안 쓰므로, 사실 그대로 "수집하지 않는다"고 적는다.
-// - 나중에 방문자 분석(GA 등)이나 문의 양식을 붙이면 여기 문구도 같이 고쳐야 한다.
+// - 이 사이트는 로그인·댓글·문의 양식이 없어 개인정보를 직접 수집하지 않는다.
+// - 방문 통계는 Google Analytics(config.js site.analytics.gaId). ID가 있으면 GA 쿠키 문구, 비어 있으면 "쿠키·분석 도구 안 씀" 문구가 나간다.
+// - 나중에 문의 양식·광고 등을 붙이면 여기 문구도 같이 고쳐야 한다. 문구를 고치면 config.js legal.effective(시행일)도 바꿀 것.
 import { esc } from '../lib/util.js';
 
 const ymdKo = (iso) => { const [y, m, d] = String(iso).split('-'); return `${y}년 ${Number(m)}월 ${Number(d)}일`; };
@@ -11,6 +12,7 @@ export function legalPages({ site, sourceNames, today }) {
   const op = esc(site.legal?.operator || `${site.cafeName} 카페 운영진`);
   const eff = ymdKo(site.legal?.effective || today);
   const boardUrl = site.contact?.url || site.cafeUrl;
+  const ga = Boolean(String(site.analytics?.gaId || '').trim());
   const boardLink = `<a href="${esc(boardUrl)}" target="_blank" rel="noopener">${cafe} 카페 ${esc(site.contact?.name ?? '문의 게시판')}</a>`;
 
   const terms = `
@@ -59,11 +61,18 @@ export function legalPages({ site, sourceNames, today }) {
 <p>사이트는 GitHub Pages(GitHub, Inc.)에 올려져 있어, 접속할 때 IP 주소·접속 시각 같은 기록이 GitHub 서버에 남을 수 있습니다. 이 기록은 GitHub의 개인정보 처리방침에 따라 처리되며, 운영자는 이를 열람하거나 따로 모으지 않습니다.</p>
 
 <h2>3. 쿠키와 추적</h2>
-<p>사이트는 쿠키, 방문자 분석 도구(예: Google Analytics), 광고 추적 코드를 사용하지 않습니다. 필터·검색 상태는 주소창(URL)에만 남고 방문자 기기에 저장되지 않습니다.</p>
+${ga ? `<p>사이트는 방문자 수와 많이 보는 페이지를 알아보려고 <b>Google Analytics</b>(Google LLC)를 사용합니다.</p>
+<ul>
+  <li>Google Analytics는 방문자 기기(브라우저)에 쿠키를 저장해 방문한 페이지, 머문 시간, 들어온 경로, 기기·브라우저 종류, 대략적인 지역 같은 이용 정보를 모읍니다.</li>
+  <li>이 정보는 Google에 전달되어 처리되며, 운영자는 Google Analytics 화면에서 <b>개인을 알아볼 수 없는 통계</b>로만 확인합니다. 이름·연락처 등으로 특정 개인을 식별하지 않으며, 광고 추적 코드는 사용하지 않습니다.</li>
+  <li>쿠키 저장을 원하지 않으면 브라우저 설정에서 쿠키를 차단하거나 <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">Google Analytics 차단 부가기능</a>을 쓰면 됩니다. 이 경우에도 사이트는 그대로 이용할 수 있습니다.</li>
+</ul>
+<p>필터·검색 상태는 주소창(URL)에만 남고, 사이트가 따로 저장하지 않습니다.</p>` : `<p>사이트는 쿠키, 방문자 분석 도구(예: Google Analytics), 광고 추적 코드를 사용하지 않습니다. 필터·검색 상태는 주소창(URL)에만 남고 방문자 기기에 저장되지 않습니다.</p>`}
 
 <h2>4. 외부 서비스</h2>
 <ul>
-  <li>글꼴(Pretendard)을 외부 CDN(jsDelivr)에서 불러오며, 이 과정에서 방문자의 IP 주소가 해당 서비스에 전달될 수 있습니다.</li>
+${ga ? `  <li>방문 통계를 위해 Google Analytics(Google LLC)를 사용합니다. 위 3항의 이용 정보와 IP 주소 등 접속 정보가 Google 서버(미국 등 국외 포함)로 전달되며, Google의 <a href="https://policies.google.com/privacy?hl=ko" target="_blank" rel="noopener">개인정보처리방침</a>에 따라 처리됩니다.</li>
+` : ''}  <li>글꼴(Pretendard)을 외부 CDN(jsDelivr)에서 불러오며, 이 과정에서 방문자의 IP 주소가 해당 서비스에 전달될 수 있습니다.</li>
   <li>사이트에서 연결되는 정부24, 기업마당, K-Startup, 각 접수 기관의 사이트와 네이버 카페는 각자의 개인정보처리방침을 따릅니다.</li>
 </ul>
 
@@ -75,6 +84,6 @@ export function legalPages({ site, sourceNames, today }) {
 
   return [
     { file: 'terms.html', title: '이용약관', description: `${site.name} 이용약관 — 정보 안내 서비스의 성격, 정보의 한계, 저작권과 출처, 외부 링크.`, body: terms },
-    { file: 'privacy.html', title: '개인정보처리방침', description: `${site.name} 개인정보처리방침 — 개인정보를 직접 수집하지 않으며 쿠키·분석 도구를 쓰지 않습니다.`, body: privacy },
+    { file: 'privacy.html', title: '개인정보처리방침', description: `${site.name} 개인정보처리방침 — 개인정보를 직접 수집하지 않으며, ${ga ? 'Google Analytics 쿠키로 개인을 식별하지 않는 방문 통계만 봅니다.' : '쿠키·분석 도구를 쓰지 않습니다.'}`, body: privacy },
   ];
 }

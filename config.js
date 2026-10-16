@@ -36,7 +36,9 @@ export default {
       bannerLight: true,        // 배너가 흰 바탕이면 true — 테두리를 그려서 페이지 배경과 구분
     },
     // 이용약관·개인정보처리방침 (site/terms.html, site/privacy.html) — 문구는 src/site/legal.js
-    legal: { effective: '2026-10-09', operator: '만렙사장 카페 운영진' },
+    legal: { effective: '2026-10-16', operator: '만렙사장 카페 운영진' },
+    // 방문자 통계: Google Analytics 측정 ID (analytics.google.com). 비우면 GA 태그를 안 넣고, 개인정보처리방침 문구도 GA 없는 버전으로 나감
+    analytics: { gaId: 'G-426N3EZNDT' },
   },
 
   gov24: {

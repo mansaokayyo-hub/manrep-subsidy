@@ -53,6 +53,9 @@ node src/summarize.js --force          # 전부 다시
 | `data/raw/` | API 원본 스냅샷 (git 제외) |
 | `site/` | 배포용 정적 사이트 (git 제외, Actions가 만듦) |
 
+## 방문자 통계
+방문자 통계는 GA(https://analytics.google.com)에서 본다. 측정 ID는 `config.js` 의 `site.analytics.gaId` (비우면 태그 안 들어감).
+
 ## 공지사항 올리기
 저장소 루트의 `notice.md` 가 첫 화면(카페 배너 아래) 공지예요. 관리자 페이지는 따로 없고 이 파일을 직접 고칩니다.
 

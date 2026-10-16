@@ -105,12 +105,18 @@ const sourceNames = usedSources.map((s) => `${SRC[s].label}(${SRC[s].org})`).joi
 
 // ── 공통 레이아웃 ──
 const FONT = '<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">';
+// Google Analytics (gtag.js) — config.js 의 site.analytics.gaId 가 비어 있으면 안 넣음
+const GA_ID = String(site.analytics?.gaId || '').trim();
+if (GA_ID && !/^G-[A-Z0-9]+$/.test(GA_ID)) { console.error(`✖ site.analytics.gaId 형식이 이상해요: ${GA_ID} (예: G-XXXXXXXXXX)`); process.exit(1); }
+const GA = GA_ID ? `<script async src="https://www.googletagmanager.com/gtag/js?id=${GA_ID}"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA_ID}');</script>` : '';
 function layout({ title, description, body, rel = '', canonical = '', scripts = '' }) {
   return `<!doctype html>
 <html lang="ko">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+${GA}
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(description)}">
 <meta property="og:type" content="website">
