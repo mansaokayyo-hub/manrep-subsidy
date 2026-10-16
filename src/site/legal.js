@@ -57,29 +57,24 @@ export function legalPages({ site, sourceNames, today }) {
 <h2>1. 수집하는 개인정보</h2>
 <p>사이트에는 회원가입·로그인·댓글·문의 양식이 없으며, 이름·연락처·이메일 등 <b>개인정보를 직접 수집하지 않습니다.</b></p>
 
-<h2>2. 자동으로 생기는 정보</h2>
-<p>사이트는 GitHub Pages(GitHub, Inc.)에 올려져 있어, 접속할 때 IP 주소·접속 시각 같은 기록이 GitHub 서버에 남을 수 있습니다. 이 기록은 GitHub의 개인정보 처리방침에 따라 처리되며, 운영자는 이를 열람하거나 따로 모으지 않습니다.</p>
+${ga ? `<h2>2. 쿠키와 방문 통계</h2>
+<p>사이트는 방문자 수와 많이 보는 페이지를 파악하기 위해 Google Analytics를 사용합니다. 이 과정에서 브라우저에 쿠키가 저장되고, 방문한 페이지·머문 시간·기기 종류·대략적인 지역 같은 이용 정보가 Google에 전달됩니다. 운영자는 이를 개인을 알아볼 수 없는 통계로만 보며, 이름·연락처 같은 개인정보와 연결하거나 광고에 쓰지 않습니다.</p>
+<p>쿠키를 원하지 않으면 브라우저 설정에서 차단할 수 있고, 차단해도 사이트는 그대로 이용할 수 있습니다.</p>
+<p>필터·검색 상태는 주소창(URL)에만 남고 사이트가 따로 저장하지 않습니다.</p>` : `<h2>2. 쿠키와 추적</h2>
+<p>사이트는 쿠키, 방문자 분석 도구(예: Google Analytics), 광고 추적 코드를 사용하지 않습니다. 필터·검색 상태는 주소창(URL)에만 남고 방문자 기기에 저장되지 않습니다.</p>`}
 
-<h2>3. 쿠키와 추적</h2>
-${ga ? `<p>사이트는 방문자 수와 많이 보는 페이지를 알아보려고 <b>Google Analytics</b>(Google LLC)를 사용합니다.</p>
+<h2>3. 외부 서비스</h2>
 <ul>
-  <li>Google Analytics는 방문자 기기(브라우저)에 쿠키를 저장해 방문한 페이지, 머문 시간, 들어온 경로, 기기·브라우저 종류, 대략적인 지역 같은 이용 정보를 모읍니다.</li>
-  <li>이 정보는 Google에 전달되어 처리되며, 운영자는 Google Analytics 화면에서 <b>개인을 알아볼 수 없는 통계</b>로만 확인합니다. 이름·연락처 등으로 특정 개인을 식별하지 않으며, 광고 추적 코드는 사용하지 않습니다.</li>
-  <li>쿠키 저장을 원하지 않으면 브라우저 설정에서 쿠키를 차단하거나 <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">Google Analytics 차단 부가기능</a>을 쓰면 됩니다. 이 경우에도 사이트는 그대로 이용할 수 있습니다.</li>
-</ul>
-<p>필터·검색 상태는 주소창(URL)에만 남고, 사이트가 따로 저장하지 않습니다.</p>` : `<p>사이트는 쿠키, 방문자 분석 도구(예: Google Analytics), 광고 추적 코드를 사용하지 않습니다. 필터·검색 상태는 주소창(URL)에만 남고 방문자 기기에 저장되지 않습니다.</p>`}
-
-<h2>4. 외부 서비스</h2>
-<ul>
-${ga ? `  <li>방문 통계를 위해 Google Analytics(Google LLC)를 사용합니다. 위 3항의 이용 정보와 IP 주소 등 접속 정보가 Google 서버(미국 등 국외 포함)로 전달되며, Google의 <a href="https://policies.google.com/privacy?hl=ko" target="_blank" rel="noopener">개인정보처리방침</a>에 따라 처리됩니다.</li>
+  <li>사이트는 GitHub Pages(GitHub, Inc.)에 올려져 있으며, 접속 시 생기는 서버 기록은 GitHub의 개인정보처리방침을 따릅니다.</li>
+${ga ? `  <li>방문 통계를 위해 Google Analytics(Google LLC)를 사용합니다. 위 2항의 이용 정보와 IP 주소 등 접속 정보가 Google 서버(미국 등 국외 포함)로 전달되며, Google의 <a href="https://policies.google.com/privacy?hl=ko" target="_blank" rel="noopener">개인정보처리방침</a>에 따라 처리됩니다.</li>
 ` : ''}  <li>글꼴(Pretendard)을 외부 CDN(jsDelivr)에서 불러오며, 이 과정에서 방문자의 IP 주소가 해당 서비스에 전달될 수 있습니다.</li>
   <li>사이트에서 연결되는 정부24, 기업마당, K-Startup, 각 접수 기관의 사이트와 네이버 카페는 각자의 개인정보처리방침을 따릅니다.</li>
 </ul>
 
-<h2>5. 문의</h2>
+<h2>4. 문의</h2>
 <p>개인정보 관련 문의는 ${boardLink}에 남겨 주세요. ${op}이 확인합니다.</p>
 
-<h2>6. 변경</h2>
+<h2>5. 변경</h2>
 <p>이 방침이 바뀌면 이 페이지에 바뀐 내용과 날짜를 함께 알립니다.</p>`;
 
   return [
