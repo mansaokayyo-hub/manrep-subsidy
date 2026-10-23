@@ -10,6 +10,7 @@ import path from 'node:path';
 import config from '../config.js';
 import { ruleRegion, ruleSupportTypes, ruleTargets, ruleMaxAmount } from './lib/classify.js';
 import { legalPages } from './site/legal.js';
+import { statusOf } from './lib/dates.js';
 import { ROOT, SITE_DIR, loadItems, todayKST, fmtDateKo, daysBetween, esc, log, hash } from './lib/util.js';
 
 const { site, taxonomy, filter, sources: SRC } = config;
@@ -66,7 +67,8 @@ function present(it) {
   return {
     id: it.id,
     url: `s/${it.id}.html`,
-    status: it.status, deadline: it.deadline, start: it.start,
+    // 상태는 매일 오늘 기준으로 다시 계산 (수집이 실패한 소스는 items.json 의 status 가 어제 값 그대로라서)
+    status: statusOf({ deadline: it.deadline, start: it.start, always: it.always }, today), deadline: it.deadline, start: it.start,
     title: ai?.easy_title || s.서비스명,
     summary: ai?.summary || s.서비스목적요약 || s.서비스목적 || '',
     who: ai?.who || s.지원대상 || '',
@@ -100,6 +102,12 @@ const isSample = all.some((p) => p.sample);
 const collectedAt = items.reduce((m, it) => (it.lastSeen > m ? it.lastSeen : m), '');
 // 실제로 데이터가 있는 소스만 출처로 표기 (config 순서대로)
 const usedSources = Object.keys(SRC).filter((s) => all.some((p) => p.source === s));
+// 수집이 실패해 데이터가 전체 수집일보다 오래된 소스 → 첫 화면에 "기업마당 10/22 기준" 식으로 표시
+const md = (d) => `${Number(d.slice(5, 7))}/${Number(d.slice(8, 10))}`;
+const staleSources = usedSources
+  .map((s) => ({ s, last: items.filter((it) => (it.source ?? 'gov24') === s).reduce((m, it) => (it.lastSeen > m ? it.lastSeen : m), '') }))
+  .filter(({ last }) => last && last < collectedAt)
+  .map(({ s, last }) => `${SRC[s].label} ${md(last)} 기준`);
 const sourceLabels = usedSources.map((s) => SRC[s].label).join('·') || '정부24';
 const sourceNames = usedSources.map((s) => `${SRC[s].label}(${SRC[s].org})`).join(', ') || '정부24(행정안전부)';
 
@@ -173,7 +181,7 @@ function indexPage() {
   const body = `
 <section class="hero compact">
   <div><h1>${esc(site.heroTitle || '전국 소상공인 지원사업, 한눈에')}</h1>${site.heroText ? `<p>${esc(site.heroText)}</p>` : ''}</div>
-  <div class="meta"><span>공고 수집 ${esc(fmtDateKo(collectedAt))}</span><span>사장님 대상 ${core.length}건</span><span>출처 ${esc(sourceLabels)}</span></div>
+  <div class="meta"><span>공고 수집 ${esc(fmtDateKo(collectedAt))}${staleSources.length ? ` (${esc(staleSources.join(', '))})` : ''}</span><span>사장님 대상 ${core.length}건</span><span>출처 ${esc(sourceLabels)}</span></div>
 </section>
 ${renderNotice()}
 ${banner}

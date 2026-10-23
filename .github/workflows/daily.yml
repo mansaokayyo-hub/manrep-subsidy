@@ -6,6 +6,7 @@ name: daily
 on:
   schedule:
     - cron: '0 21 * * *'   # 06:00 KST
+    - cron: '0 3 * * *'    # 12:00 KST (아침 수집이 연결 실패했을 때 재시도 겸)
   workflow_dispatch:        # Actions 탭에서 수동 실행 버튼
     inputs:
       regate:

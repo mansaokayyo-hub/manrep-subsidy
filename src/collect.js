@@ -179,6 +179,10 @@ async function main() {
     if (ran.has(it.source) && !seen.has(it.id) && !it.removed) { it.removed = true; it.removedAt = today; removed++; }
     if (it.removed && it.removedAt && daysBetween(it.removedAt, today) > config.filter.keepExpiredDays * 2) { delete items[it.id]; purged++; }
   }
+  // 이번에 못 본 항목(소스 수집 실패 등)도 오늘 기준으로 상태 재계산 — 어제 "마감임박"이 오늘 "마감"이 되도록
+  for (const it of Object.values(items)) {
+    if (!it.removed && !seen.has(it.id)) it.status = statusOf({ deadline: it.deadline, start: it.start, always: it.always }, today);
+  }
   saveItems(items);
 
   const counts = {};
