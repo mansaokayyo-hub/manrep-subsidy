@@ -1,10 +1,10 @@
-# 검수 리스트 (2026-10-28)
+# 검수 리스트 (2026-10-29)
 
-## 요약 검수 86건 — 숫자 불일치 / 확신도 낮음 / 관련없음
+## 요약 검수 83건 — 숫자 불일치 / 확신도 낮음 / 관련없음
 원문 링크 열어서 확인 후, 틀렸으면 items.json 의 ai 필드를 고치거나 해당 항목만 `--force` 로 다시 돌리세요.
 
 ### 유공기관 전입지원금 지원  (471000000115)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/471000000115
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1002553&bnefType=all&svcId=471000000115
 - relevant: true  / confidence: medium
 - ⚑ checklist: 원문에 없는 숫자 2019
 - ⚑ cautions: 원문에 없는 숫자 2019
@@ -13,7 +13,7 @@
 - 최대: 최대 200만원
 
 ### 광주형일자리 기업 발굴 육성 및 컨설팅 지원  (B55470700001)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B55470700001
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2105840&bnefType=all&svcId=B55470700001
 - relevant: true  / confidence: medium
 - ⚑ what: 원문에 없는 숫자 2000, 5000
 - ⚑ cautions: 원문에 없는 숫자 5000
@@ -22,7 +22,7 @@
 - 최대: 최대 1억원
 
 ### 재도약지원자금  (142100000044)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/142100000044
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2148618&bnefType=all&svcId=142100000044
 - relevant: true  / confidence: low
 - ⚑ AI 확신도 낮음 (원문 모호)
 - 요약: 경제 환경이 바뀌어 사업 방향을 바꾸거나 구조를 개선하려는 기업, 그리고 실패 후 다시 창업하려는 분께 정책자금을 빌려주는 사업이에요.
@@ -30,7 +30,7 @@
 - 최대: -
 
 ### 중소중견기업 해외M&A 지원  (145000000043)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/145000000043
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=757624&bnefType=all&svcId=145000000043
 - relevant: true  / confidence: low
 - ⚑ AI 확신도 낮음 (원문 모호)
 - 요약: 해외 기업 인수(M&A)를 생각하는 중소·중견기업에 인수할 해외 매물을 찾아주고, 자문사 컨설팅 비용을 지원하는 사업입니다. 대한무역투자진흥공사(KOTRA)가 접수해요.
@@ -38,7 +38,7 @@
 - 최대: -
 
 ### 표준사업장 설립 지원  (149200000079)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/149200000079
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=516701&bnefType=all&svcId=149200000079
 - relevant: true  / confidence: high
 - ⚑ cautions: 원문에 없는 숫자 90
 - 요약: 장애인을 많이 고용하는 '장애인 표준사업장'을 세우거나 운영하려는 사업주에게 실제 투자한 금액의 최대 75%를 지원하는 사업입니다.
@@ -46,7 +46,7 @@
 - 최대: 최대 20억원
 
 ### 농식품 벤처 창업 활성화 지원  (154300000127)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/154300000127
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=591378&bnefType=all&svcId=154300000127
 - relevant: true  / confidence: low
 - ⚑ AI 확신도 낮음 (원문 모호)
 - 요약: 농식품 분야에서 창업을 준비하거나 이미 창업한 분께 사업화 자금, 판로, 기술, 상담 등을 종합적으로 지원하는 사업입니다. 세부 사업별로 따로 공고가 나와요.
@@ -54,7 +54,7 @@
 - 최대: -
 
 ### 소상공인 손실보상금 지원(현장신청 지원)  (303000000326)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/303000000326
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2161916&bnefType=all&svcId=303000000326
 - relevant: true  / confidence: low
 - ⚑ AI 확신도 낮음 (원문 모호)
 - 요약: 코로나 시기 집합금지·영업시간 제한 같은 방역조치를 지키느라 매출이 줄어든 사장님께 손실보상금을 현금으로 드리는 사업이에요. 성동구에서 신청을 도와줍니다.
@@ -62,23 +62,15 @@
 - 최대: -
 
 ### 청년 사업자 임대료 지원 사업  (341000000312)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/341000000312
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2173527&bnefType=all&svcId=341000000312
 - relevant: true  / confidence: medium
 - ⚑ max_amount: 원문에 없는 숫자 200
 - 요약: 대구 중구에 살면서 중구에서 사업하는 19~39세 청년 사장님에게 사업장 임차료를 월 40만원까지, 최대 5개월 동안 현금으로 지원해요.
 - 지원: 사무실(사업장) 임차료를 월 40만원 한도로 최대 5개월까지 현금으로 지원해요.
 - 최대: 최대 200만원 (월 40만원×5개월)
 
-### 소상공인 임차료 지원  (360000000256)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/360000000256
-- relevant: true  / confidence: medium
-- ⚑ cautions: 원문에 없는 숫자 4402
-- 요약: 광주 서구에서 장사하다 폐업한 뒤 다시 창업한 사장님께 월세(임차료)를 5개월 동안 지원해 드리는 사업이에요.
-- 지원: 한 달 최대 50만원씩 5개월 동안, 최대 250만원의 임차료를 현금으로 지원해요.
-- 최대: 최대 250만원
-
 ### 청년창업 육성 지원  (458000000128)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/458000000128
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2128205&bnefType=all&svcId=458000000128
 - relevant: true  / confidence: low
 - ⚑ AI 확신도 낮음 (원문 모호)
 - 요약: 충남 서천군이 청년 창업자에게 창업 컨설팅과 교육을 해주고, 사업화 자금도 지원하는 사업입니다. 수행기관을 통해 운영돼요.
@@ -86,7 +78,7 @@
 - 최대: -
 
 ### 청년 창업 도전 프로젝트 지원  (488000000125)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/488000000125
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1004295&bnefType=all&svcId=488000000125
 - relevant: true  / confidence: low
 - ⚑ AI 확신도 낮음 (원문 모호)
 - 요약: 고흥군에 사는 청년 예비창업자나 창업 3년 이내 사장님에게 창업비용을 현금으로 지원하는 사업입니다.
@@ -94,7 +86,7 @@
 - 최대: 최대 15,000만원
 
 ### 민관협력형 공공배달앱 먹깨비 가맹점 가입 및 이용자 할인  (489000000426)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/489000000426
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2122922&bnefType=all&svcId=489000000426
 - relevant: true  / confidence: low
 - ⚑ AI 확신도 낮음 (원문 모호)
 - 요약: 보성군이 민간과 함께 운영하는 공공배달앱 '먹깨비'에 가게를 가맹점으로 등록하면 혜택을 받을 수 있는 사업이에요. 앱 이용 손님에게도 할인 혜택이 있어요.
@@ -102,7 +94,7 @@
 - 최대: -
 
 ### 소규모 기업환경 개선사업  (537000000221)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/537000000221
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=806063&bnefType=all&svcId=537000000221
 - relevant: true  / confidence: low
 - ⚑ AI 확신도 낮음 (원문 모호)
 - 요약: 거제시에서 국가산단이 아닌 공단이나 협동화단지에 있는 소규모 기업의 환경을 고쳐 주는 사업이에요. 단지 안 소규모 보수공사나 작업환경 개선 작업 등이 해당돼요.
@@ -110,7 +102,7 @@
 - 최대: -
 
 ### 중소기업 비즈니스 융합성장 지원  (641000000841)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/641000000841
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2160025&bnefType=all&svcId=641000000841
 - relevant: true  / confidence: low
 - ⚑ AI 확신도 낮음 (원문 모호)
 - 요약: 경기도 중소기업이 대학·연구기관 등과 손잡고 진행하는 융합과제의 사업화를 지원하는 사업이에요. 기업당 최대 6천만원까지 지원받을 수 있어요.
@@ -118,7 +110,7 @@
 - 최대: 최대 6,000만원
 
 ### 혁신스타트업 성장지원 프로그램  (B19001600010)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B19001600010
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2150218&bnefType=all&svcId=B19001600010
 - relevant: true  / confidence: low
 - ⚑ AI 확신도 낮음 (원문 모호)
 - 요약: 신용보증기금이 혁신스타트업의 성장 단계와 업종에 맞춰 보증, 보험, 투자, 팩토링 등을 종합적으로 지원하는 프로그램이에요.
@@ -126,7 +118,7 @@
 - 최대: -
 
 ### 투자옵션부보증  (B19001600012)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B19001600012
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2150220&bnefType=all&svcId=B19001600012
 - relevant: true  / confidence: low
 - ⚑ AI 확신도 낮음 (원문 모호)
 - 요약: 신용보증기금이 기업에 보증을 서주면서, 나중에 그 보증을 투자로 바꿀 수 있는 권리(옵션)를 함께 갖는 방식의 자금 지원이에요. 보증과 투자를 묶어서 자금 조달을 돕는 상품입니다.
@@ -134,7 +126,7 @@
 - 최대: -
 
 ### 밸류업 프로그램  (B19001600013)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B19001600013
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2150221&bnefType=all&svcId=B19001600013
 - relevant: true  / confidence: low
 - ⚑ AI 확신도 낮음 (원문 모호)
 - 요약: 신용보증기금이 운영하는 재기 지원 프로그램이에요. 재창업이나 재도전을 하려는 기업을 돕습니다.
@@ -142,7 +134,7 @@
 - 최대: -
 
 ### 중소 중견기업팩토링  (B19001600015)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B19001600015
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2150223&bnefType=all&svcId=B19001600015
 - relevant: true  / confidence: low
 - ⚑ AI 확신도 낮음 (원문 모호)
 - 요약: 신용보증기금이 중소·중견기업에게 팩토링 금융상품을 제공하는 프로그램입니다. 상시로 온라인 신청할 수 있어요.
@@ -150,7 +142,7 @@
 - 최대: -
 
 ### 무탄소에너지보증  (B19001600017)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B19001600017
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2150225&bnefType=all&svcId=B19001600017
 - relevant: true  / confidence: low
 - ⚑ AI 확신도 낮음 (원문 모호)
 - 요약: 신용보증기금이 무탄소에너지보증 기준에 맞는 기업에 보증을 서 줘서 대출(융자)을 받기 쉽게 도와주는 사업이에요. 상시 신청할 수 있어요.
@@ -158,23 +150,15 @@
 - 최대: -
 
 ### 유망창업기업 성장 지원 프로그램  (B19001600018)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B19001600018
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2150226&bnefType=all&svcId=B19001600018
 - relevant: true  / confidence: low
 - ⚑ AI 확신도 낮음 (원문 모호)
 - 요약: 신용보증기금이 '유망창업기업' 기준에 맞는 기업을 골라 융자 형태로 지원하는 프로그램입니다. 상시로 신청할 수 있어요.
 - 지원: 융자(현금) 형태로 지원합니다. 지원 한도나 조건은 공고에 적혀 있지 않습니다.
 - 최대: -
 
-### 고양 콘텐츠 제작·유통 지원  (O00046700003)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00046700003
-- relevant: true  / confidence: low
-- ⚑ AI 확신도 낮음 (원문 모호)
-- 요약: 고양시에 있는 콘텐츠 기업이 OTT 플랫폼에 맞춘 콘텐츠를 만들 때 제작비를 현금으로 지원해 드리는 사업입니다.
-- 지원: OTT 플랫폼 특화 콘텐츠 제작비를 현금으로 지원합니다. 지원 금액은 공고에 나와 있지 않아요.
-- 최대: -
-
-### 28청춘창업소 사업화지원(일반, 협업)  (O00046700017)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00046700017
+### 28청춘창업소 사업화지원(입주, 졸업 기업)  (O00046700017)
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2001547&bnefType=all&svcId=O00046700017
 - relevant: true  / confidence: low
 - ⚑ AI 확신도 낮음 (원문 모호)
 - 요약: 고양산업진흥원이 운영하는 창업공간 '28청춘창업소'에 입주한 기업에게 시제품 제작과 마케팅에 쓸 사업화 지원금을 주는 사업입니다.
@@ -182,7 +166,7 @@
 - 최대: -
 
 ### 신재생에너지금융지원  (SD0000016529)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/SD0000016529
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=999176&bnefType=all&svcId=SD0000016529
 - relevant: true  / confidence: low
 - ⚑ AI 확신도 낮음 (원문 모호)
 - 요약: 태양광·풍력 같은 신재생에너지 설비를 설치하거나 만들려는 분께 장기·저금리로 자금을 빌려주는 사업입니다. 초기 투자비 부담을 덜어주는 융자(대출) 지원이에요.
@@ -390,7 +374,7 @@
 - 최대: -
 
 ### 긴급복지 생계지원  (135200005003)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/135200005003
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=900010&bnefType=all&svcId=135200005003
 - relevant: false  / confidence: high
 
 - 요약: 갑작스러운 위기로 생계가 어려워진 저소득 가구에 식료품비·의복비 같은 생계비를 현금으로 지원하는 개인·가구 복지제도입니다. 사업자 지원사업이 아니라 가구 단위 복지 지원이에요.
@@ -398,7 +382,7 @@
 - 최대: -
 
 ### 중소기업 특성화고 인력양성 지원  (142000000007)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/142000000007
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=163731&bnefType=all&svcId=142000000007
 - relevant: false  / confidence: medium
 
 - 요약: 특성화고등학교가 중소기업 맞춤형 교육과 취업 연계 프로그램을 운영할 수 있도록 운영비를 지원하는 사업이에요. 중소기업은 맞춤반 등에 참여해 졸업생 인력을 연계받는 구조예요.
@@ -406,7 +390,7 @@
 - 최대: -
 
 ### 전통시장 주차환경개선 지원  (142000000045)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/142000000045
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=60492&bnefType=all&svcId=142000000045
 - relevant: false  / confidence: medium
 
 - 요약: 전통시장이나 상점가 손님들이 쓸 수 있는 주차장을 만들거나, 근처 주차장 이용 비용을 보조해 주는 사업입니다. 시군구가 상인회와 협의해서 시도에 신청하는 방식이라 사장님 개인이 직접 신청하는 사업은 아니에요.
@@ -414,7 +398,7 @@
 - 최대: -
 
 ### 중소기업 회사채 발행 지원(스케일업금융)  (142100000030)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/142100000030
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2104326&bnefType=all&svcId=142100000030
 - relevant: false  / confidence: medium
 
 - 요약: 자체 신용만으로는 회사채를 발행하기 어려운 중소기업을 위해, 회사채를 모아 유동화증권으로 만들어 자금을 조달할 수 있게 도와주는 사업입니다.
@@ -422,7 +406,7 @@
 - 최대: 최대 120억원
 
 ### 국내복귀기업 지원  (145000000041)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/145000000041
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=588020&bnefType=all&svcId=145000000041
 - relevant: false  / confidence: medium
 
 - 요약: 해외에 진출했다가 국내로 돌아오는 기업(유턴기업)을 선정해 세금 감면, 자금, 입지, 인력 등 지원제도를 안내하고 연결해 주는 사업입니다.
@@ -430,7 +414,7 @@
 - 최대: -
 
 ### 중소ㆍ중견기업 온실가스 감축 인프라 구축 지원  (145000000087)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/145000000087
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=593285&bnefType=all&svcId=145000000087
 - relevant: false  / confidence: high
 
 - 요약: 연간 에너지를 아주 많이 쓰는 사업장(2,000toe 이상)을 가진 중소·중견기업이 에너지관리시스템(EnMS)을 갖출 때 투자비 일부를 현금으로 지원하는 사업입니다.
@@ -438,7 +422,7 @@
 - 최대: -
 
 ### 국가인적자원개발컨소시엄지원  (149200000065)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/149200000065
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=516538&bnefType=all&svcId=149200000065
 - relevant: false  / confidence: high
 
 - 요약: 기업이나 사업주단체가 여러 중소기업과 함께 공동훈련을 운영할 때 훈련시설·장비, 운영비, 프로그램 개발비를 지원하는 사업이에요. 중소기업 직원들이 직업훈련을 더 쉽게 받을 수 있게 하는 게 목적이에요.
@@ -446,7 +430,7 @@
 - 최대: 최대 20억원 (연간)
 
 ### 중장년 경력지원제  (149200005029)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/149200005029
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2147825&bnefType=all&svcId=149200005029
 - relevant: false  / confidence: medium
 
 - 요약: 일찍 퇴직한 50~65세 중장년이 새 분야에서 4~12주 동안 실무 경험을 쌓도록 돕는 고용노동부 프로그램입니다. 구직자 개인이 주 대상이고, 기업은 일경험을 제공하는 참여기업으로 함께할 수 있어요.
@@ -454,7 +438,7 @@
 - 최대: -
 
 ### 농식품 수출 해외정보 제공  (154300000369)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/154300000369
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=702226&bnefType=all&svcId=154300000369
 - relevant: false  / confidence: medium
 
 - 요약: 농식품 수출에 필요한 해외 시장동향, 비관세장벽 정보, 수출 통계를 'KATI' 누리집에서 무료로 볼 수 있는 정보 제공 서비스입니다. 따로 신청해서 돈이나 혜택을 받는 사업은 아니에요.
@@ -462,7 +446,7 @@
 - 최대: -
 
 ### 한식진흥 및 음식관광활성화  (154300005020)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/154300005020
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2116401&bnefType=all&svcId=154300005020
 - relevant: false  / confidence: medium
 
 - 요약: 농림축산식품부가 한식을 국내외에 알리기 위해 한식문화공간 운영, 미식행사·SNS 홍보, 미식관광 프로그램 개발, 해외 우수 한식당 지정 등을 하는 사업입니다. 사장님이 따로 신청해서 지원금을 받는 사업은 아니에요.
@@ -470,7 +454,7 @@
 - 최대: -
 
 ### 무기체계 개조개발 지원 사업  (169000000006)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/169000000006
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=517848&bnefType=all&svcId=169000000006
 - relevant: false  / confidence: high
 
 - 요약: 이미 개발된 무기체계나 부품을 해외 구매국이 원하는 성능과 운용환경에 맞게 고치는 기술개발 비용을 지원해요. 방산 수출을 늘리려는 사업이에요.
@@ -478,7 +462,7 @@
 - 최대: 최대 375억원 (5년간)
 
 ### 명태산업 광역특구 황태 기자재 지원  (428000000112)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/428000000112
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1003851&bnefType=all&svcId=428000000112
 - relevant: false  / confidence: medium
 
 - 요약: 평창군 안에서 황태를 가공·생산하는 업체에 기자재 구입비를 현금으로 지원하는 사업이에요. 농어업경영체 등록이 필요한 수산 가공 분야 전용 사업입니다.
@@ -486,7 +470,7 @@
 - 최대: -
 
 ### 농산물 전자상거래 택배비 지원  (478100000036)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/478100000036
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2168535&bnefType=all&svcId=478100000036
 - relevant: false  / confidence: medium
 
 - 요약: 고창군에서 직접 생산한 농산물을 온라인으로 파는 농업인·법인·생산자 단체에게 택배비를 지원하는 사업이에요.
@@ -494,23 +478,15 @@
 - 최대: -
 
 ### 음식물 감량기 설치 지원  (493000000285)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/493000000285
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2117214&bnefType=all&svcId=493000000285
 - relevant: false  / confidence: medium
 
 - 요약: 해남군에 사는 가정이 음식물 감량기를 살 때 구입비의 50%를 지원하는 사업입니다. 원문에는 가정용 지원만 나와 있어 사업장용 지원 내용은 없어요.
 - 지원: 대상자로 선정된 뒤 음식물 감량기를 사면 설치 금액의 50%를 현금으로 지원해요. 가정용은 최대 30만원입니다.
 - 최대: 최대 30만원
 
-### 농산물 임가공 및 포장재, 디자인 지원  (559000000127)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/559000000127
-- relevant: false  / confidence: high
-
-- 요약: 양주시에 사는 농업인·농업법인이 농산물을 가공 맡기거나 포장재·디자인을 만들 때 드는 비용을 지원하는 사업이에요.
-- 지원: 가공시설이 없는 소규모 농가의 임가공비, 그리고 포장재 구입비와 디자인 개발비를 현금으로 지원해요.
-- 최대: -
-
 ### 지방 강소기업육성 프로젝트  (641000000833)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/641000000833
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2160116&bnefType=all&svcId=641000000833
 - relevant: false  / confidence: medium
 
 - 요약: 경기도가 성장 가능성이 높은 기술혁신·수출 중소기업을 골라 시제품 개발, 인증, 홍보, 전시회 참가 같은 사업화 비용을 지원하는 사업입니다. 매출 50억 원 이상 기업이 대상이라 일반 소상공인에게는 해당되기 어려워요.
@@ -518,7 +494,7 @@
 - 최대: -
 
 ### 저신용기업 담보부사채 발행지원  (B01000300008)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B01000300008
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2001135&bnefType=all&svcId=B01000300008
 - relevant: false  / confidence: medium
 
 - 요약: 자체 신용만으로는 회사채 발행이 어려운 기업이 부동산을 담보로 회사채(담보부사채)를 낼 때, 한국자산관리공사가 지급보증을 서서 자금 조달을 돕는 제도입니다. 회사채를 발행하는 법인용 제도라 일반 소상공인·자영업자에게는 맞지 않아요.
@@ -526,7 +502,7 @@
 - 최대: 최대 500억원
 
 ### 육상수조 EHP 지원  (B41000200016)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B41000200016
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2106705&bnefType=all&svcId=B41000200016
 - relevant: false  / confidence: high
 
 - 요약: 한전 고객 중 양식장 어가가 기존 전기난방기기를 고효율 육상수조 EHP(히트펌프)로 바꾸면 지원금을 현금으로 주는 사업이에요. 양식업 전용이라 일반 소상공인은 해당되지 않아요.
@@ -534,7 +510,7 @@
 - 최대: -
 
 ### 스포츠 액셀러레이팅 프로그램 지원(창업투자지원)  (B55101400003)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B55101400003
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2101406&bnefType=all&svcId=B55101400003
 - relevant: false  / confidence: medium
 
 - 요약: 스포츠산업 분야 창업기업이 투자를 받을 수 있도록 멘토링·IR 등 역량강화 프로그램과 지원금을 주는 사업입니다. 다만 2026년도 지원기업은 이미 선정이 끝났어요(4월, 총 52개사).
@@ -542,7 +518,7 @@
 - 최대: -
 
 ### 발전 5사 정비 적격기업 공동 인증 지원  (B55207000003)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B55207000003
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2000594&bnefType=all&svcId=B55207000003
 - relevant: false  / confidence: medium
 
 - 요약: 발전 5사의 발전설비 제작·현장정비·반출정비를 맡을 수 있는 '정비 적격기업' 공동 인증 절차를 안내하는 공고입니다. 돈을 지원하는 사업이 아니라 인증 절차 안내예요.
@@ -550,7 +526,7 @@
 - 최대: -
 
 ### 자회사형 장애인 표준사업장 지원  (B55258300011)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B55258300011
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2001349&bnefType=all&svcId=B55258300011
 - relevant: false  / confidence: high
 
 - 요약: 장애인을 고용하려고 자회사형 표준사업장을 세우는 사업주에게 고용시설 설치·구입·수리·개선 비용을 무상으로 지원하는 사업입니다. 상시 근로자 50명 이상 사업주가 대상이라 일반 소상공인은 해당되기 어려워요.
@@ -558,7 +534,7 @@
 - 최대: 최대 15억원
 
 ### 메이커 활성화 지원  (B55273500010)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B55273500010
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2002229&bnefType=all&svcId=B55273500010
 - relevant: false  / confidence: medium
 
 - 요약: 시제품 제작·양산 같은 제조창업을 돕는 메이커 스페이스(공용 제작 공간)를 만들고 운영하는 법인에 운영 경비를 지원하는 사업이에요. 개별 사장님이 직접 지원을 받는 사업이라기보다 공간을 운영하는 기관용이에요.
@@ -566,7 +542,7 @@
 - 최대: -
 
 ### 농산물 직거래 활성화 지원  (B55284500002)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B55284500002
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2001303&bnefType=all&svcId=B55284500002
 - relevant: false  / confidence: medium
 
 - 요약: 직거래장터처럼 농산물을 생산자가 소비자에게 바로 파는 판매처를 늘리기 위해 시설, 운영비, 홍보를 지원하는 사업이에요.
@@ -574,7 +550,7 @@
 - 최대: -
 
 ### 소공인특화지원센터 설치·운영  (B55307700002)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B55307700002
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2001097&bnefType=all&svcId=B55307700002
 - relevant: false  / confidence: medium
 
 - 요약: 소공인이 모여 있는 지역(집적지)에 지원센터를 세워 운영할 비영리 법인을 뽑아 운영비를 현금으로 지원하는 사업이에요. 개별 사장님이 아니라 센터를 운영할 단체가 신청합니다.
@@ -582,7 +558,7 @@
 - 최대: -
 
 ### 산업계 에너지관리시스템 보급 지원  (B55353000212)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B55353000212
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2000999&bnefType=all&svcId=B55353000212
 - relevant: false  / confidence: medium
 
 - 요약: 에너지를 많이 쓰는 중소·중견기업에 에너지관리시스템(EMS) 도입 컨설팅과 설비 구축비를 지원하는 사업입니다. 에너지를 체계적으로 관리하고 온실가스를 줄이는 것이 목적이에요.
@@ -590,7 +566,7 @@
 - 최대: -
 
 ### 예비유니콘 특별보증  (B55369400030)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/B55369400030
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2001243&bnefType=all&svcId=B55369400030
 - relevant: false  / confidence: high
 
 - 요약: 투자 유치와 매출 성장 실적이 있는 혁신 중소기업이 유니콘기업으로 클 수 있도록 기술보증기금이 최대 200억원까지 보증해 주는 제도입니다. 일반 소상공인보다는 대규모 투자를 받은 고성장 기업용입니다.
@@ -598,7 +574,7 @@
 - 최대: 최대 200억원
 
 ### 소상공인 상생한마당  (O00045700019)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00045700019
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2156195&bnefType=all&svcId=O00045700019
 - relevant: false  / confidence: medium
 
 - 요약: 경기도 소상공인의 우수상품 전시·홍보·판매와 교류를 위한 '경기도 상인의 날', '소상공인 상생한마당' 행사를 여는 사업입니다. 지원금은 행사를 주관하는 상인 단체 2곳에 지급돼요.
@@ -606,7 +582,7 @@
 - 최대: -
 
 ### 소상공인 자영업자 빅데이터 기반 디지털 Back-Office 플랫폼  (O00045700025)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/O00045700025
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2159018&bnefType=all&svcId=O00045700025
 - relevant: false  / confidence: medium
 
 - 요약: 경기도 안에 여러 기관별로 흩어져 있던 소상공인 온라인 플랫폼을 빅데이터 기반 하나의 통합 플랫폼으로 묶는 사업이에요. 사장님이 직접 돈이나 혜택을 받는 지원사업이 아니라, 기관들이 시스템을 만드는 사업입니다.
@@ -614,7 +590,7 @@
 - 최대: -
 
 ### 시장 개척 플랫폼 구축·운영, 수출전략형 제품 인큐베이팅  (154300000367)
-- 원문: https://www.gov.kr/portal/rcvfvrSvc/dtlEx/154300000367
+- 원문: https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=693024&bnefType=all&svcId=154300000367
 - relevant: false  / confidence: medium
 
 - 요약: 농식품 수출업체가 새로운 해외 시장(전략국가 20개국)을 개척할 수 있게 생산농가·수출업체·바이어가 함께하는 시장 개척활동을 지원하는 사업입니다.
@@ -694,7 +670,7 @@
 - 최대: -
 
 
-## 게이트에서 제외된 616건 — "사장님 대상 아님" 판정 (훑어보고 억울한 게 있으면 config 필터나 프롬프트 조정)
+## 게이트에서 제외된 614건 — "사장님 대상 아님" 판정 (훑어보고 억울한 게 있으면 config 필터나 프롬프트 조정)
 - 사회적기업 지방세 감면 — 사회적기업 전용 지방세 감면이며, 지원내용 기한이 2024.12.31로 종료됨
 - 긴급복지 주거지원 — 가구 생활 위기 대상 주거비·임시거소 복지, 사업자 지원 아님
 - 긴급복지 생계지원 — 개인·가구 생활 복지(생계비 지원)로 사업자 대상 지원이 아님
@@ -818,7 +794,6 @@
 - 지방투자촉진보조금 — 대기업·중견 포함 법인 대상이며 10억 이상 투자·상시고용 10명 이상 요건으로 소상공인 가게 사장님 대상이 아님
 - 거창군 애향장려금 지원 — 군 소재 기업에 근무하는 34세 이하 노동자 개인 대상 장려금이라 사업자 신청 공고가 아님
 - 광주시 청년지원센터 더누림 플랫폼 창업누림운영 — 광주시 거주 19~39세 청년 예비창업가 대상 공유오피스·교육으로 개인 대상이며 소상공인 사업자 신청 공고가 아님
-- 농산물 임가공 및 포장재, 디자인 지원 — 농업경영체 등록 농업인 전용으로, 일반 소상공인 가게 사장님은 신청 대상이 아님
 - 청년기술창업수당 지원 — 혁신기술 보유 기술창업 업종 전용 지원으로 일반 소상공인 대상 아님
 - 세종시 면접스타일링 지원 — 구직 청년 개인 대상 면접 복장·사진 지원으로 사업자 신청 대상 아님
 - 부산형 긴급복지지원 사업 — 개인 생활안정 복지 지원으로 사업자 대상 공고가 아님
@@ -857,7 +832,7 @@
 - 초격차 스타트업 1000+ 프로젝트 — 초격차 10대 기술 보유 스타트업 대상, 기술창업·벤처 전용 사업이라 동네 가게 사장님 해당 불가
 - 올해의 K-스타트업 — 경진대회 참가 모집이며 기술창업·스타트업 대상이라 동네 소상공인 대상 아님
 - 스타트업 파크 — 광역자치단체 대상 스타트업 파크 조성비 지원으로 소상공인이 직접 신청할 수 없음
-- 저신용기업 담보부사채 발행지원 — 300~500억 규모 담보부사채 보증으로 중대형 법인 대상, 동네 소상공인 신청 대상 아님
+- 저신용기업 담보부사채 발행지원 — 담보부사채 발행 기업 대상 지급보증으로 소상공인 가게 사장님이 아닌 중견·대기업 재무구조 개선용 자금조달 지원
 - 스타트업 성장단계별 맞춤형 지원 — 혁신 스타트업·제조·신성장동력 등 특정 기술 분야 기업 대상 보증 프로그램으로 동네 소상공인 대상 아님
 - 투·융자복합금융 지원 — 기술성·성장성 중소기업 대상 투자연계 복합보증으로 소상공인 가게 사장님이 실사용하기 어려움
 - 민간투자사업자 신용보증 — 인프라 민간투자사업시행자 대상 신용보증으로 동네 소상공인 사장님이 해당될 여지가 없음
@@ -965,16 +940,15 @@
 - 정책 역량강화 — 지자체·산하기관 담당자 대상 정책 역량강화 교육으로, 사업자 본인이 신청하는 지원이 아님
 - 소상공인 자영업자 빅데이터 기반 디지털 Back-Office 플랫폼 — 소상공인 대상 플랫폼 구축 사업이나 사업자 신청 가능한 지원이 아님(공공 시스템 구축)
 - 스타트업 투자 챌린지 — 초기 창업기업 대상 액셀러레이팅·IR 오디션 등 기술창업 투자 보육 프로그램
-- 고양 콘텐츠 제작·유통 지원 — 콘텐츠기업 대상 OTT 제작비 지원으로 동네 가게 사장님 해당 여지 없는 특정 산업 분야
 - ICT기업 기술개발 지원 — ICT 기술 분야 기업 대상 제품·SW 개발 지원으로 동네 소상공인이 해당되기 어려움
 - 문화창조허브 공간 및 가상오피스 지원 — 콘텐츠 분야 창작자·스타트업 대상 공간·가상오피스 지원으로 동네 소상공인 대상이 아님
 - 콘텐츠 기업 협업 마케팅 활성화 — 지원대상이 콘텐츠산업 특수분류 업종 기업으로 특정 산업 기업 전용임
-- 영상기업 활용 인센티브 지원 — 영상 제작사·제작서비스 기업만 대상인 특정 산업 지원이라 동네 가게 사장님 대상이 아님
+- 고양시 영상기업 활용 인센티브 지원 — 영상콘텐츠 제작사·제작서비스 협력기업만 대상인 특정 산업 분야 지원
 - ICT기업 마케팅 지원 — ICT 업종 기업만 대상이라 동네 소상공인 대부분이 해당되지 않는 특정 산업 지원
-- 28청춘창업소 사업화지원(일반, 협업) — 28청춘창업소 입주기업 전용 사업화 지원으로 일반 소상공인 신청 대상 아님
-- 28청춘창업소 엑셀러레이팅 사업화 지원 — 창업소 입주기업 대상 엑셀러레이팅 사업으로 일반 소상공인 신청 대상이 아님
+- 28청춘창업소 사업화지원(입주, 졸업 기업) — 28청춘창업소 입주·졸업 기업 대상으로 일반 소상공인이 신청하기 어려움
+- 28청춘창업소 엑셀러레이팅 개방형 교육 — 기술창업·스타트업 보육 교육으로 소상공인 가게 사장님 대상이 아님
 - 고양 R&D 융합 기술 개발 지원 — ICT 기업·기업부설연구소·소프트웨어사업자 요건으로 특정 기술 분야 기업만 대상이라 동네 가게 사장님 해당 어려움
-- 고양 콘텐츠 사업화 지원 — 콘텐츠·게임 등 특정 기술 분야 기업 대상 실감형 콘텐츠 제작비 지원
+- IP융복합 콘텐츠 비즈니스 지원 — VR·AR·XR 등 콘텐츠 개발사 대상의 IP융복합 지원, 일반 가게 사장님 대상 아님
 - 웹콘텐츠 기업 레벨업 — 웹툰·웹소설 창작기업 대상 콘텐츠 제작비 지원으로 동네 가게 사장님 대상 아님
 - 중소기업 품질우수상품 선정 지원 — 부천 소재 제조기업 대상 품질우수상품 선정·인증 지원으로 동네 소상공인 대상 아님
 - 안동의료원 경북금연지원센터 — 흡연자 개인 대상 금연 서비스로 소상공인 사업자 신청 대상이 아님
