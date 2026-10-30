@@ -208807,7 +208807,7 @@
     "status": "마감임박",
     "firstSeen": "2026-10-14",
     "lastSeen": "2026-10-30",
-    "removed": false,
+    "removed": true,
     "ai": {
       "hash": "fc64eca4a436",
       "model": "claude-opus-5-5",
@@ -208866,7 +208866,8 @@
       "detail": "ok",
       "applyFails": 0,
       "detailFails": 0
-    }
+    },
+    "removedAt": "2026-10-30"
   },
   "PBLN_000000000127184": {
     "id": "PBLN_000000000127184",
