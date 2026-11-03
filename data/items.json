@@ -232620,7 +232620,7 @@
     "status": "접수중",
     "firstSeen": "2026-11-03",
     "lastSeen": "2026-11-03",
-    "removed": false,
+    "removed": true,
     "ai": null,
     "tier": "B",
     "gate": {
@@ -232636,7 +232636,8 @@
       "detail": "ok",
       "applyFails": 0,
       "detailFails": 0
-    }
+    },
+    "removedAt": "2026-11-03"
   },
   "PBLN_000000000127605": {
     "id": "PBLN_000000000127605",
