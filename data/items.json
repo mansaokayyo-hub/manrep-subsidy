@@ -236327,7 +236327,7 @@
     "status": "마감임박",
     "firstSeen": "2026-11-05",
     "lastSeen": "2026-11-06",
-    "removed": false,
+    "removed": true,
     "ai": null,
     "tier": "B",
     "gate": {
@@ -236343,7 +236343,8 @@
       "detail": "ok",
       "applyFails": 0,
       "detailFails": 0
-    }
+    },
+    "removedAt": "2026-11-06"
   },
   "PBLN_000000000127671": {
     "id": "PBLN_000000000127671",
