@@ -140534,7 +140534,7 @@
     "status": "공고별",
     "firstSeen": "2026-10-09",
     "lastSeen": "2026-11-10",
-    "removed": false,
+    "removed": true,
     "ai": {
       "hash": "fc0084d565b3",
       "model": "claude-opus-5-5",
@@ -140594,7 +140594,8 @@
       "detail": "ok",
       "applyFails": 0,
       "detailFails": 0
-    }
+    },
+    "removedAt": "2026-11-10"
   },
   "PBLN_000000000126532": {
     "id": "PBLN_000000000126532",
@@ -144721,7 +144722,7 @@
     "status": "공고별",
     "firstSeen": "2026-10-09",
     "lastSeen": "2026-11-10",
-    "removed": false,
+    "removed": true,
     "ai": {
       "hash": "b679be7dcd77",
       "model": "claude-opus-5-5",
@@ -144790,7 +144791,8 @@
       "detail": "ok",
       "applyFails": 0,
       "detailFails": 0
-    }
+    },
+    "removedAt": "2026-11-10"
   },
   "PBLN_000000000126222": {
     "id": "PBLN_000000000126222",
@@ -155729,7 +155731,7 @@
     "status": "상시",
     "firstSeen": "2026-10-09",
     "lastSeen": "2026-11-10",
-    "removed": false,
+    "removed": true,
     "ai": {
       "hash": "86e199dc0312",
       "model": "claude-opus-5-5",
@@ -155800,7 +155802,8 @@
       "detail": "ok",
       "applyFails": 0,
       "detailFails": 0
-    }
+    },
+    "removedAt": "2026-11-10"
   },
   "PBLN_000000000124693": {
     "id": "PBLN_000000000124693",
